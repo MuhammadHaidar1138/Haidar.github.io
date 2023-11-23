@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
 *, body, html {
     padding: 0;
     margin: 0;
@@ -8,16 +10,145 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: rgba(255, 255, 255, 0.226);
     height: 100px;
     width: 100%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 
 header h1 {
     font-size: 50px;
-    color: black;
+    color: rgb(253, 248, 248);
 }
 
 header h1 span {
-    color: blue;
+    color: black;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+nav ul li a:hover {
+    letter-spacing: 1px;
+}
+
+.awal {
+    background-image: url(Image/Background3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.awal main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 19vh;
+}
+
+#Home {
+    font-size: 40px;
+    color: white;
+}
+
+#semua {
+    background-image: url(Image/Background3.gif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tentang {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* border: solid 5px black;  */
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.bio {
+    font-size: 20px;
+}
+
+#contact {
+    background-image: url(Image/Background3.gif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.semua2 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* border: solid 5px black;  */
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.24);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);  
+}
+
+.IG {
+    width: 250px;
+}
+.gambarIG {
+    font-size: 25px;
+
+}
+
+.WA {
+    width: 300px;
+}
+
+.gambarWA {
+    font-size: 25px;
+}
+
+.TWIT {
+    width: 190px;
+}
+
+.gambarTWIT {
+    font-size: 25px;
+}
+
+footer {
+    background-color: black;
+    height: 90px;
+}
+
+footer h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    color: white;
+    font-size: 30px;
 }
