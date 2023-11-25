@@ -20,6 +20,7 @@ header {
 header h1 {
     font-size: 50px;
     color: rgb(253, 248, 248);
+    font-style: italic;
 }
 
 header h1 span {
@@ -139,6 +140,19 @@ nav ul li a:hover {
     font-size: 25px;
 }
 
+.GIT {
+    width: 300px;
+}
+
+.gambargit {
+    font-size: 25px;
+}
+
+.gambargit h1 {
+    padding-left: 70px;
+    padding-top: 19px;
+}
+
 footer {
     background-color: black;
     height: 90px;
@@ -152,3 +166,64 @@ footer h1 {
     color: white;
     font-size: 30px;
 }
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:981px) {
+    .semua2{
+        display: flex;
+        flex-direction: column;
+    }
+    .IG{
+        width: 140px;
+        text-align: center;
+    }
+    .gambarIG{
+        font-size: 16px;
+    }
+    .WA{
+        width: 160px;
+
+    }
+    .gambarWA{
+        font-size: 16px;
+    }
+    .TWIT{
+        width:110px;
+    }
+    .gambarTWIT{
+        font-size: 16px;
+    }
+    .GIT{
+        width: 240px;
+        align-items: center;
+    }
+    .gambargit{
+        font-size: 16px;
+    }
+    footer h1{
+        font-size: 20px;
+    }
+    .Tentang{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile{
+        height: 150px;
+        width: 150px;
+    }
+    .bio{
+        font-size: 10px;
+    }
+    #Home {
+        font-size: 20px;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+} 
